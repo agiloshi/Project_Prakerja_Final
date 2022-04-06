@@ -16,7 +16,7 @@
 <body>
     <!-- Navbar -->
     <div class="container-fluid">
-        <nav class="navbar navbar-light" style="background-color: #E3CAA5;">
+        <nav class="navbar navbar-light" style="background-color: #30AADD;">
             <div class="container">
                 <a class="navbar-brand" href="#">HOME</a>
                 <a class="navbar-brand" href="https://www.instagram.com/agiloshi/" target="blank">Instagram</a>
@@ -30,25 +30,25 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 bg-light">
-                <h1 class="text-center display-6">Selamat Datang</h1>
+                <br><h1 class="text-center display-6">Selamat Datang</h1><br>
 
                 <!-- Layout Biodata Diri -->
                 <div class="container" style="background-color: whitesmoke;">
                     <div class="row justify-content-md-center">
-                
+
                         <!-- Poto Profil -->
                         <div class="col col-lg-2">
-                            <img src="potoprofil.jpeg" alt="Poto" width="150" height="150"/></td>
+                            <img src="potoprofil.jpeg" alt="Poto" width="150" height="150" /></td>
                         </div>
                         <!-- Nama -->
                         <div class="col-lg-auto">
                             <b>Agil Oshi Putra</b><br>
-                            <i>Fullstack Web Developer</i><br>                   
+                            <i>Fullstack Web Developer</i><br>
                         </div>
                         <!-- Profil -->
                         <div class="col col-lg-2">
                             <ul>
-                                <li>Usia     </li>
+                                <li>Usia </li>
                                 <li>Domisili </li>
                                 <li>Pengalaman</li>
                                 <li>Availability</li>
@@ -60,12 +60,54 @@
                             <i>: Palembang</i><br>
                             <i>: Pemula</i><br>
                             <i>: Freelance</i>
-                        </div>
+                        </div><br>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Form -->
+        <div class="row">
+            <div class="col-12 bg-light">
+                <br><p class=" h3 text-center">Masukan Data Anda</p>
+                <form>
+                    <!-- Form Nama Lengkap -->
+                    <div class="form-group">
+                        <label for="Nama">Nama</label>
+                        <input type="Nama" class="form-control" id="Nama" placeholder="Masukan nama lengkap">
+                    </div><br>
+                    <!-- Usia -->
+                    <div class="form-group">
+                        <label for="Usia">Usia</label>
+                        <input type="Usia" class="form-control" id="Usia" placeholder="Masukan usia anda">
+                    </div><br>
+                    <!-- Alamat -->
+                    <div class="form-group">
+                        <label for="Alamat">Alamat</label>
+                        <input type="Alamat" class="form-control" id="Alamat"
+                            placeholder="Masukan Alamat Domisili Anda">
+                    </div>
+                    <!-- Kota -->
+                    <label for="Kota">Kota:</label><br>
+                    <select name="Kota">
+                        <option>Palembang</option>
+                        <option>Lampung</option>
+                        <option>Jakarta</option>
+                    </select><br><br>
+                    <!-- Email -->
+                   
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Masukan email anda">
+                        <small id="emailHelp" class="form-text text-muted">Pastikan Email anda benar</small><br>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form><br>
+                <p><i>Terima kasih atas kunjungannya</i></p>
+            </div>
+        </div>
     </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">    </script>

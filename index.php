@@ -1,3 +1,3 @@
 <?php
-    include_once("pages/home.html");
+    include_once("home.html");
 ?>
